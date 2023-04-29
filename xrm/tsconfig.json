@@ -1,7 +1,6 @@
 {
     "files": [
-        "index.d.ts",
-        "xrm-tests.ts"
+        "index.d.ts"
     ],
     "compilerOptions": {
         "module": "commonjs",
