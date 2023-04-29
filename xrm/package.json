@@ -1,0 +1,13 @@
+{
+  "name": "@philcatterall/xrm",
+  "version": "1.0.0",
+  "description": "PhilsFixedXRM - Custom @types/xrm package with bug fix",
+  "main": "index.d.ts",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philcatterall/PhilsFixedXRM.git"
+  },
+  "license": "MIT",
+  "private": false
+}
