@@ -678,6 +678,8 @@ declare namespace Xrm {
              * returns a rejected promise for an async event handler or the operation times out.
              */
             preventDefaultOnError(): void;
+            getIsSaveSuccess(): boolean;
+            getSaveErrorInfo(): string;
         }
 
         interface SaveEventArgumentsAsync extends SaveEventArguments {
@@ -981,7 +983,7 @@ declare namespace Xrm {
         type SaveEventHandler = (context: SaveEventContext) => void;
         type SaveEventHandlerAsync = (context: SaveEventContextAsync) => PromiseLike<void>;
 
-        type PostSaveEventHandler = (context: EventContext) => void;
+        type PostSaveEventHandler = (context: SaveEventContext) => void;
 
         type ProcessStatusChangeHandler = (context: ProcessStatusChangedEventContext) => void;
         type StageChangeEventHandler = (context: StageChangeEventContext) => void;
