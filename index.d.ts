@@ -757,7 +757,7 @@ declare namespace Xrm {
             /**
              * Gets the destination process status
              * @returns The process status
-             * @remarks Note that this method `context.getEventArgs().getStatus()` returns the Status with 1st character Capitalised (Active, Aborted, Finished),
+             * @remarks Note that this method `context.getEventArgs().` returns the Status with 1st character Capitalised (Active, Aborted, Finished),
              * whereas `context.getFormContext().data.process.getStatus()` returns all lowercase (active, aborted, finished).
              * This is documented and appears to be by design.
              * @see {@link https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/clientapi/reference/executioncontext/geteventargs External Link: ExecutionContext.getEventArgs}
