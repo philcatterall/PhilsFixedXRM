@@ -764,7 +764,7 @@ declare namespace Xrm {
              * @see {@link https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/clientapi/reference/formcontext-data-process/instance/getstatus ExternalLink: formContext.data.process.getStatus}
              * philc
              */
-            getStatus(): ProcessFlow.ProcessStatus;
+            getStatus(): XrmEnum.ProcessStatusFromEventArgs;
 
             /**
              * Prevents the stage or status change operation from being submitted to the server.
